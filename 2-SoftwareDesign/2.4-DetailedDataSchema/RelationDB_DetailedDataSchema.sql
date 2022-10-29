@@ -7,6 +7,7 @@ drop table HYDROMETEROLOGICAL CENTER CASCADE;
 CREATE TABLE USER( --користувач
 user_id INT PRIMARY KEY, -- id
 name VARCHAR (20), -- ПІБ
+photo BINARY(1) -- зображення
 email NUMBER(4), -- N email адреси співробітника
 self_est_complex_id INT REFERENCES SELF-ESTEEM DEVELOPMENT COMPLEX(self_est_complex_id),-- id комлексу самоповаги
 air_clean_id INT PREFERENCES AIR CLEANNESS(air_clean_id) -- id чистоти повітря
