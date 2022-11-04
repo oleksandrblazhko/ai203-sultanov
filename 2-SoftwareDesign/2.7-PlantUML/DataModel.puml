@@ -25,7 +25,7 @@ entity "SELF-ESTEEM DEVELOPMENT COMPLEX" as SelfEstDevComplx {
   (FK)user_id
 }
 
-user --{ airCleanness
-user --{ SelfEstDevComplx
+User --{ airCleanness
+User --{ SelfEstDevComplx
 
 @enduml
