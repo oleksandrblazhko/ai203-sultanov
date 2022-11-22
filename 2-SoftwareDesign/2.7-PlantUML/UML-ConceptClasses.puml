@@ -1,0 +1,12 @@
+@startuml
+
+title Concept of Classes Diagram 
+
+Class AirCleanness
+Class SelfEsteemDevelopmentComplex
+Class USER
+
+SelfEsteemDevelopmentComplex"1" --o "1"USER
+AirCleanness"1" --o "1"USER
+
+@enduml

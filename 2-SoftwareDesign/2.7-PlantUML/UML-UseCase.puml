@@ -1,0 +1,12 @@
+@startuml
+title UseСaseDiagram
+actor "Cпоживач" as actor
+
+rectangle System {
+    usecase (Проробити комплекс розвитку самоповаги) as uc1 
+    usecase (Знайти комплекс розвитку самоповаги) as uc2
+
+    actor -- uc1
+    uc1 .> uc2 : include
+}
+@enduml

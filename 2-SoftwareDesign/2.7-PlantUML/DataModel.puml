@@ -1,0 +1,31 @@
+@startuml
+title Relation Schema
+hide circle
+entity "User" as user {
+  (PK)user_id
+  --
+  user_photo
+  nickname
+  email
+}
+
+entity "Air Cleanness" as air_cleanness {
+  (PK)user_id
+  --
+  Dust_amount
+  (FK) user_id
+}
+
+entity "SELF-ESTEEM DEVELOPMENT COMPLEX" as SelfEstDevComplx {
+  (PK) SelfEstComplex_id
+  --
+  t1tle
+  Content
+  Link
+  (FK)user_id
+}
+
+user --{ air_cleanness
+user --{ SelfEstDevComplx
+
+@enduml

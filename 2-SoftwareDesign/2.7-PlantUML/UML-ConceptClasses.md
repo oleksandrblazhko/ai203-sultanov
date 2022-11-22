@@ -1,0 +1,1 @@
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai203-sultanov/Ai203_sultanov_with_laboratory_work_7/2-SoftwareDesign/2.7-PlantUML/UML-ConceptClasses.puml)
