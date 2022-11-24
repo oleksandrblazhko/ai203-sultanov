@@ -29,7 +29,7 @@ class Courses:
         self.lesson_name = "null"
         self.course_date = 0
 
-    def create_lesson(self):
+    def find_lesson(self):
         lesson_name = input("Введіть назву заняття")
         course_date = input("Дата публікації заняття")
         return course_date, lesson_name
