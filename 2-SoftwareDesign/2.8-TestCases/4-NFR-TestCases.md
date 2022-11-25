@@ -1,0 +1,5 @@
+|NFR id|Test Case id|Опис кроків тестового сценарію|Опис очікуваних результатів|
+|:-:|:-:|:-|:-:|
+|NFR2.1|TC1.5|Початкові умови: відсутні. <br> Кроки сценарію: відсутні.|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai203-sultanov/blob/Ai203_sultanov_with_laboratory_work_8/2-SoftwareDesign/2.8-TestCases/2.8.1-NFR/img%E2%84%961.PNG)|
+|NFR2.1|TC1.6|Початкові умови: успішно пройдено TC1.5. <br> Кроки сценарію: <br> 1) В поле «Назва заняття» внесено значення "Cамоповага - крок до"<br> 2) В поле «Дата заняття» внесено значення 16.11.2022.|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai203-sultanov/blob/Ai203_sultanov_with_laboratory_work_8/2-SoftwareDesign/2.8-TestCases/2.8.1-NFR/img%E2%84%962.PNG)|
+|NFR2.1|TC1.7|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) Натиснуто кнопку «Почати курс».|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai203-sultanov/blob/Ai203_sultanov_with_laboratory_work_8/2-SoftwareDesign/2.8-TestCases/2.8.1-NFR/img%E2%84%963.PNG)|
